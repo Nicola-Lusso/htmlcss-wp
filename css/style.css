@@ -56,7 +56,7 @@ header{
 }
 
 nav {
-  background-color: rgba(164, 164, 164, 0.94);
+  background-color: rgb(96, 96, 96);
   text-align: center;
 }
 
@@ -69,6 +69,13 @@ nav .menu li {
 
 nav .menu li a {
   color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav .menu li:hover {
+  background-color: rgba(212, 212, 212, 0.9);
+  text-decoration: underline;
 }
 
 main{
@@ -85,11 +92,26 @@ main::after {
 .temi {
   width: 20%;
   /* Non serve, solo per prova */
-  height: 230px;
-  background-color: pink;
+  /* height: 230px; */
   /* Fine prova */
+  background-color: white;
 }
 
+.temi-top{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.temi-icona{
+
+}
+
+.temi-top ul li a {
+  text-decoration: none;
+  color: green;
+  line-height: 1.6;
+}
 
 .articoli {
   width: 56%;
