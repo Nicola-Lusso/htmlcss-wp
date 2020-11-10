@@ -8,6 +8,17 @@ body {
   background-image: url('../img/natural-pattern.png');
 }
 
+h1, h2{
+  color: #504741;
+}
+
+a {
+  text-decoration: none;
+}
+.float-left {
+  float: left;
+}
+
 .container{
   width: 1000px;
   /* Non serve, solo per prova */
@@ -117,6 +128,10 @@ main::after {
 .temi-titolo{
   width: 80%;
 }
+.temi-top ul{
+  list-style: none;
+
+}
 
 .temi-top ul li a {
   text-decoration: none;
@@ -145,7 +160,8 @@ main::after {
 .articoli h1{
   text-transform: uppercase;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  padding: 20px;
 
 }
 
@@ -160,8 +176,51 @@ main::after {
 .widget {
   margin-bottom: 20px;
   /* Non serve, solo per prova */
-  height: 230px;
-  background-color: black;
+  /* height: 230px; */
   /* Fine prova */
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+}
 
+.widget h2{
+
+  margin-bottom: 30px;
+}
+
+.widget p{
+  line-height: 1.6;
+}
+
+
+footer {
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.copyright span {
+  color: Lightgrey;
+  font-style: italic;
+}
+
+.social-loghi{
+  list-style: none;
+
+}
+
+.social-loghi::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.social-loghi li{
+  width: calc(100% / 3);
+}
+
+.social-loghi li i{
+  color: Lightgrey;
+  font-size: 50px;
 }
