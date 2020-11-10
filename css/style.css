@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/natural-pattern.png');
+}
+
+.container{
+  width: 1000px;
+  /* Non serve, solo per prova */
+  /* height: 900px;
+  background-color: red; */
+  /* Fine prova */
+  margin: 20px auto;
+}
+
+.float-left {
+  float: left;
+}
+
+header{
+  /* Non serve, solo per prova */
+  height: 400px;
+  background-color: green;
+  /* Fine prova */
+}
+
+.header-top {
+
+}
+
+main{
+  margin: 10px;
+
+}
+
+main::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.temi {
+  width: 20%;
+  /* Non serve, solo per prova */
+  height: 230px;
+  background-color: pink;
+  /* Fine prova */
+}
+
+
+.articoli {
+  width: 56%;
+  margin: 0 2%;
+  /* Non serve, solo per prova */
+  height: 400px;
+  background-color: blue;
+  /* Fine prova */
+}
+
+.widgets {
+  width: 20%;
+  /* Non serve, solo per prova */
+  /* height: 230px;
+  background-color: lightblue; */
+  /* Fine prova */
+}
+
+.widget {
+  margin-bottom: 20px;
+  /* Non serve, solo per prova */
+  height: 230px;
+  background-color: black;
+  /* Fine prova */
+
+}
