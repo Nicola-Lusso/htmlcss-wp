@@ -95,16 +95,27 @@ main::after {
   /* height: 230px; */
   /* Fine prova */
   background-color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.temi-top{
+.temi-top::after{
   content: '';
   display: table;
   clear: both;
 }
 
-.temi-icona{
+.temi-icona {
+  width: 20%;
+}
 
+.temi-icona i{
+ font-size: 30px;
+ color: rgb(227, 161, 33);
+}
+
+.temi-titolo{
+  width: 80%;
 }
 
 .temi-top ul li a {
@@ -114,12 +125,28 @@ main::after {
 }
 
 .articoli {
+  /* Non serve, solo per prova */
+  /* height: 400px; */
+  /* Fine prova */
   width: 56%;
   margin: 0 2%;
-  /* Non serve, solo per prova */
-  height: 400px;
-  background-color: blue;
-  /* Fine prova */
+  background-color: white;
+  border-radius: 10px;
+}
+
+.articoli p{
+  line-height: 35px;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+.articoli h1{
+  text-transform: uppercase;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+
 }
 
 .widgets {
