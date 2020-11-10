@@ -23,8 +23,8 @@ body {
 
 header{
   /* Non serve, solo per prova */
-  height: 400px;
-  background-color: green;
+  /* height: 400px;
+  background-color: green; */
   /* Fine prova */
 
 }
@@ -53,6 +53,22 @@ header{
 .header-logo h2{
   color: white;
   text-transform: uppercase;
+}
+
+nav {
+  background-color: rgba(164, 164, 164, 0.94);
+  text-align: center;
+}
+
+nav .menu li {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+}
+
+nav .menu li a {
+  color: white;
 }
 
 main{
