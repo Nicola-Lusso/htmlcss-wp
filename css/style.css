@@ -26,10 +26,33 @@ header{
   height: 400px;
   background-color: green;
   /* Fine prova */
+
 }
 
 .header-top {
+  height: 360px;
+  background-image: url('../img/natural-header.jpg');
+  /* background-size: cover; */
+  border: 10px solid white;
+  text-align: center;
+  position: relative;
+}
 
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.header-logo img{
+  width: 50%;
+}
+
+.header-logo h2{
+  color: white;
+  text-transform: uppercase;
 }
 
 main{
